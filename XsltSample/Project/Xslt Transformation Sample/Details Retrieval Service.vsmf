@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<deploymentManifest id="manifest_45c16942-37bb-4904-9965-9d434c87b5b7" rootItemId="45c16942-37bb-4904-9965-9d434c87b5b7" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <Item id="45c16942-37bb-4904-9965-9d434c87b5b7" type="VirtualService">
+    <References>
+      <Ref id="56f42ad6-5903-4964-9433-356765d78241" />
+      <Ref id="661b95d5-5acf-413a-ba91-84a1119d9f33" />
+      <Ref id="968cd1d8-a1af-4c1d-96ce-53beaf976e90" />
+      <Ref id="abe5dcc6-d090-42bc-a997-21e4a0f30589" />
+      <Ref id="d1396120-0612-4a40-a0f6-773e3b7fa257" />
+    </References>
+  </Item>
+  <Item id="661b95d5-5acf-413a-ba91-84a1119d9f33" type="DataModel">
+    <References>
+      <Ref id="03e1585f-6b33-4fbb-8abc-c3578a8a0882" />
+      <Ref id="15b005f8-0bf7-4d11-8e2b-8b375ba96f34" />
+      <Ref id="968cd1d8-a1af-4c1d-96ce-53beaf976e90" />
+      <Ref id="9891a77c-0219-48c8-96fd-c58fe6993dff" />
+      <Ref id="a7647a40-2082-41a5-95bb-7310a7f6a284" />
+      <Ref id="b12dc123-93c6-4a26-9eb4-f89e07988b8f" />
+    </References>
+  </Item>
+  <Item id="abe5dcc6-d090-42bc-a997-21e4a0f30589" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="56f42ad6-5903-4964-9433-356765d78241" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="d1396120-0612-4a40-a0f6-773e3b7fa257" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="a7647a40-2082-41a5-95bb-7310a7f6a284" type="Dataset" contentHashcode="1264714407">
+    <References />
+  </Item>
+  <Item id="968cd1d8-a1af-4c1d-96ce-53beaf976e90" type="ServiceDescription">
+    <References />
+  </Item>
+  <Item id="15b005f8-0bf7-4d11-8e2b-8b375ba96f34" type="Dataset" contentHashcode="-1504945770">
+    <References />
+  </Item>
+  <Item id="03e1585f-6b33-4fbb-8abc-c3578a8a0882" type="Dataset" contentHashcode="1333934195">
+    <References />
+  </Item>
+  <Item id="9891a77c-0219-48c8-96fd-c58fe6993dff" type="Dataset" contentHashcode="-191007625">
+    <References />
+  </Item>
+  <Item id="b12dc123-93c6-4a26-9eb4-f89e07988b8f" type="Dataset" contentHashcode="-57268691">
+    <References />
+  </Item>
+</deploymentManifest>

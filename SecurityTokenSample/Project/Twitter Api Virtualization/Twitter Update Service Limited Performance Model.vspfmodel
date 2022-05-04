@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<performanceModel version="5.5.0.6315" id="8433f056-1c78-4780-8c56-97c3fc47a739" name="Twitter Update Limited Performance Model" description="Performance Model for Twitter Update Service with limited TPS" virtualServiceId="7689d232-8b5b-4aaa-a04a-34836f359bd4" isPerformanceBoostingActive="true" activeBoosterId="Cpu" isServiceBoostingActive="true" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <throughputMetric isActive="false" limit="0" />
+  <tpsMetric isActive="true" limit="10" />
+  <operation operationId="any-uri-operation" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="10000" />
+    <tpsMetric isActive="false" limit="10" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="100" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="1000" maximumResponseTime="1000" multiResponseIntervalTime="0" maximumHitRate="2000" tolerance="0.2" totalDatapointsCount="0">
+      <datapointsCluster meanHitRate="131.87508507084041" meanResponseTime="98.005161275158244" hitRateDiameter="64.6850860830708" responseTimeDiameter="18.531680516214891" datapointsCount="19" />
+      <datapointsCluster meanHitRate="390.4897159683174" meanResponseTime="107.15210071632271" hitRateDiameter="62.393350439329332" responseTimeDiameter="13.892808984449509" datapointsCount="20" />
+      <datapointsCluster meanHitRate="576.901205914684" meanResponseTime="104.73986689222039" hitRateDiameter="67.141911765838259" responseTimeDiameter="15.099419455555928" datapointsCount="15" />
+      <datapointsCluster meanHitRate="766.0769605766493" meanResponseTime="104.47617296803564" hitRateDiameter="77.390704562265171" responseTimeDiameter="15.413313014625253" datapointsCount="24" />
+      <datapointsCluster meanHitRate="915.88800036749569" meanResponseTime="96.7972299674513" hitRateDiameter="58.720824759365875" responseTimeDiameter="18.186323928267846" datapointsCount="17" />
+      <datapointsCluster meanHitRate="1156.9750181029603" meanResponseTime="172.25572936299574" hitRateDiameter="56.807670927474632" responseTimeDiameter="30.227987880247404" datapointsCount="22" />
+      <datapointsCluster meanHitRate="1343.7594016921348" meanResponseTime="328.98424095469221" hitRateDiameter="81.856884820066128" responseTimeDiameter="56.564391353261087" datapointsCount="21" />
+      <datapointsCluster meanHitRate="1487.4963137389948" meanResponseTime="522.37671316288674" hitRateDiameter="75.623659653329227" responseTimeDiameter="72.9615072280582" datapointsCount="15" />
+      <datapointsCluster meanHitRate="1624.0670076006149" meanResponseTime="725.15663766965611" hitRateDiameter="73.856077455933161" responseTimeDiameter="103.24954719688002" datapointsCount="16" />
+      <datapointsCluster meanHitRate="1800.9873306806646" meanResponseTime="848.61986368279975" hitRateDiameter="72.631994423158133" responseTimeDiameter="143.77330003058648" datapointsCount="21" />
+    </responseTimeMetric>
+  </operation>
+  <boosterValues boosterId="Cpu">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Network">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Cluster">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Expert">
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+  </boosterValues>
+</performanceModel>

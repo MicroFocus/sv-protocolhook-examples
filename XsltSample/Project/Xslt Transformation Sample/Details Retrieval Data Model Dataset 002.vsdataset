@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.5.0.6315" id="03e1585f-6b33-4fbb-8abc-c3578a8a0882" vsId="45c16942-37bb-4904-9965-9d434c87b5b7" dmId="661b95d5-5acf-413a-ba91-84a1119d9f33" sorId="552e2748-e95a-4a99-a8f9-74ae71a2a2dd" hc="1333934195" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="cdf58a99-a1d2-4b84-ae64-8f8362fe20b2" ts="2022-05-04T20:05:37.4929817Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">7067de62-bfeb-4353-86d8-88ba5abcfbe4</ntId>
+    <ntId p="6:1">7fadf157-b3a2-47f6-96d0-9bd8502c2d2e</ntId>
+    <s p="8:1">200</s>
+    <s p="10:1">text/xml</s>
+    <ec p="15:1" />
+    <s p="22:1">Main Street</s>
+    <s p="23:1">New Town</s>
+    <s p="24:1">987654</s>
+    <s p="27:1">123456</s>
+    <s p="29:1">true</s>
+    <s p="30:1">true</s>
+    <s p="31:1">true</s>
+  </sc>
+</ds>
